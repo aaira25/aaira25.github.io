@@ -3,12 +3,17 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.header {
-    display: flex;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: #00aeff;
-    border-bottom: 1px solid #ddd;
+.fixed header {
+    .fixed-header {
+        position: fixed; /* Keeps the header in place */
+        top: 0;
+        left: 0;
+        width: 100%; 
+        display: block;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: #00aeff;
+        border-bottom: 1px solid #ddd;
 }
 
 .profile-picture {
@@ -49,6 +54,53 @@ body {
     display: flex;
     align-items: center;
     background-color: #00aeff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.text-box {
+    flex: 1;
+    padding: 20px;
+    margin-right: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.text-box h2 {
+    margin-top: 0;
+}
+
+.circle-image {
+    width: 150px; /* Adjust size as needed */
+    height: 150px; /* Adjust size as needed */
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Light background color */
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
