@@ -3,7 +3,7 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.fixed header {
+.fixed-header {
         position: fixed; /* Keeps the header in place */
         top: 0;
         left: 0;
@@ -46,17 +46,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     background-color: #f0f0f0; /* Light background color */
-}
-
-.container {
-    display: flex;
-    align-items: center;
-    background-color: #00aeff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .text-box {
@@ -93,17 +83,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 120vh;
     background-color: #f0f0f0; /* Light background color */
-}
-
-.container {
-    display: flex;
-    align-items: center;
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .text-box {
