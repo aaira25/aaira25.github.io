@@ -42,6 +42,8 @@ body {
 
 body {
     margin: 0;
+    margin-top: 1000px; /* Adjust this value based on the header's height */
+    padding: 1rem;
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
@@ -51,7 +53,7 @@ body {
 
 .text-box {
     flex: 1;
-    padding: 20px;
+    padding: 1rem;
     margin-right: 20px;
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -80,7 +82,7 @@ body {
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
     height: 120vh;
